@@ -8,7 +8,7 @@
 ### Student Name & ID:
 | Student Name          | Student No  |
 |-----------------------|-------------|
-| Sergio Silva          | CT100xxxx      |
+| Sergio Silva          |      |
 
 ---
 
@@ -87,7 +87,6 @@ This app stands out by combining personal preference tracking with comprehensive
 | HTML/CSS      | Structure & styling              | -        |
 | JavaScript    | Interactive elements             | ES6      |
 | Font Awesome  | Movie-related icons              | 6.4      |
-| Google Fonts  | Typography (Oswald)              | -        |
 | TMDB API      | Movie database integration       | 3.0      |
 | **Deployment**: GitHub Pages                   |
 
