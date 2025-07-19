@@ -1,5 +1,5 @@
 // Global variables
-const API_KEY = '3d550f13bf38922d1c02e08010c00197'; // TMDb API key
+const API_KEY = '<key>'; // TMDb API key
 const BASE_URL = 'https://api.themoviedb.org/3';
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
