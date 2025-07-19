@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reel Swipe - Phase 1</title>
+    <title>Reel Swipe - Phase 2</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -21,12 +21,48 @@
                     <input type="text" id="searchInput" class="form-control me-2 w-50" placeholder="Search movies by title...">
                     <button id="searchBtn" class="btn btn-primary">Search</button>
                 </div>
+
+                <div class="d-flex justify-content-center flex-wrap gap-2 mb-4">
+                    <button class="btn btn-outline-secondary filter-btn" data-genre="comedy">Comedy</button>
+                    <button class="btn btn-outline-secondary filter-btn" data-genre="action">Action</button>
+                    <button class="btn btn-outline-secondary filter-btn" data-genre="drama">Drama</button>
+                    <button class="btn btn-outline-secondary filter-btn" data-genre="sci-fi">Sci-Fi</button>
+                    <button class="btn btn-outline-secondary filter-btn" data-genre="horror">Horror</button>
+                    <button class="btn btn-outline-secondary filter-btn" data-genre="romance">Romance</button>
+                </div>
             </div>
 
             <div id="resultsSection">
                 <h2 class="text-center mb-4">Movie Results</h2>
-                <div class="row" id="movieResults">
-                    <!-- Movie cards will appear here -->
+                <div class="carousel-container">
+                    <div class="carousel-track" id="movieResults">
+                        <!-- Movie cards will be inserted here -->
+                    </div>
+                    <div class="carousel-navigation">
+                        <button id="prevBtn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button id="nextBtn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="watchListSection" class="mt-5">
+                <h2 class="text-center mb-4">Your Watch List</h2>
+                <div class="carousel-container">
+                    <div class="carousel-track" id="watchListResults">
+                        <!-- Watch list movie cards will be inserted here -->
+                    </div>
+                    <div class="carousel-navigation">
+                        <button class="watchlist-prev" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="watchlist-next" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </main>

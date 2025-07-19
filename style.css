@@ -24,8 +24,138 @@ header {
     margin-top: 2rem;
 }
 
+.filter-btn {
+    border-color: #666;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background-color: #e50914;
+    border-color: #e50914;
+    color: #fff;
+}
+
+/* Carousel Styles */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: calc(25% - 1rem);
+    margin-right: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+.carousel-item.fade-in-up {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.carousel-navigation {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.carousel-navigation button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-navigation button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Movie Cards */
+.movie-card {
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.movie-card:hover .movie-poster {
+    opacity: 0.9;
+}
+
+.movie-info {
+    padding: 1rem;
+}
+
+.movie-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.movie-year {
+    color: #bbb;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.rating {
+    color: #ffc107;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.watchlist-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ccc;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.watchlist-icon.active {
+    color: #dc3545;
+}
+
 /* Results Section */
-#resultsSection {
+#resultsSection, #watchListSection {
     background: #222;
     padding: 2rem;
     border-radius: 8px;
@@ -52,4 +182,37 @@ footer {
         margin-top: 1rem;
         padding: 1rem;
     }
+    
+    /* Adjust carousel for smaller screens */
+    .carousel-item {
+        width: calc(50% - 1rem);
+    }
+    
+    .filter-btn {
+        flex: 1 1 45%;
+        margin: 0.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* For very small screens */
+    .carousel-item {
+        width: calc(100% - 1rem);
+    }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.5s ease forwards;
 }
