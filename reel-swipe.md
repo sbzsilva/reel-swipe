@@ -51,11 +51,11 @@ This app stands out by combining personal preference tracking with comprehensive
 |----|-------------------------------|
 | 1  | **Movie Recommendations**     | 
 |    | *Purpose*: Suggest films based on user preferences |
-|    | *Interaction*: Click "Surprise Me" button (Future Feature)| 
+|    | *Interaction*: Click "Surprise Me" button *| 
 |    | *Value*: Personalized entertainment |
 | 2  | **Advanced Search**           |
 |    | *Purpose*: Find specific movies |
-|    | *Interaction*: Filter by genre, year, rating (Future Feature) |
+|    | *Interaction*: Filter by genre, year, rating * |
 |    | *Value*: Precise movie discovery |
 | 3  | **Movie Details**             |
 |    | *Purpose*: View comprehensive information |
@@ -65,10 +65,11 @@ This app stands out by combining personal preference tracking with comprehensive
 |    | *Purpose*: Save movies for later |
 |    | *Interaction*: Click heart icon to add/remove |
 |    | *Value*: Track interesting finds |
-| 5  | **Ratings System** (Future Feature)           |
+| 5  | **Ratings System** *           |
 |    | *Purpose*: Share opinions with community |
 |    | *Interaction*: Rate movies with 1-5 stars |
 |    | *Value*: Better future recommendations |
+|* This is a hypothetical feature and not yet implemented.|
 
 ---
 
