@@ -8,7 +8,7 @@
 ### Student Name & ID:
 | Student Name          | Student No  |
 |-----------------------|-------------|
-| Sergio Silva          |      |
+| Sergio Silva          | Individual  |
 
 ---
 
@@ -49,11 +49,11 @@ This app stands out by combining personal preference tracking with comprehensive
 ## 3. Main Features
 | No | Feature Description          |
 |----|-------------------------------|
-| 1  | **Movie Recommendations**     |
+| 1  | **Movie Recommendations**     | - Future Feature
 |    | *Purpose*: Suggest films based on user preferences |
-|    | *Interaction*: Click "Surprise Me" button |
+|    | *Interaction*: Click "Surprise Me" button | 
 |    | *Value*: Personalized entertainment |
-| 2  | **Advanced Search**           |
+| 2  | **Advanced Search**           | - Future Feature
 |    | *Purpose*: Find specific movies |
 |    | *Interaction*: Filter by genre, year, rating |
 |    | *Value*: Precise movie discovery |
@@ -65,7 +65,7 @@ This app stands out by combining personal preference tracking with comprehensive
 |    | *Purpose*: Save movies for later |
 |    | *Interaction*: Click heart icon to add/remove |
 |    | *Value*: Track interesting finds |
-| 5  | **Ratings System**            |
+| 5  | **Ratings System**            | - Future Feature
 |    | *Purpose*: Share opinions with community |
 |    | *Interaction*: Rate movies with 1-5 stars |
 |    | *Value*: Better future recommendations |
@@ -93,7 +93,7 @@ This app stands out by combining personal preference tracking with comprehensive
 ---
 
 ## 6. Installation
-1. Clone repo: `git clone https://github.com/username/reel-swipe.git`
+1. Clone repo: `git clone https://github.com/sbzsilva/reel-swipe.git`
 2. Install dependencies: `npm install`
 3. Start local server: `npm start`
 4. Open browser to http://localhost:3000/
