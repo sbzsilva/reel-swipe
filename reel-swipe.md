@@ -49,13 +49,13 @@ This app stands out by combining personal preference tracking with comprehensive
 ## 3. Main Features
 | No | Feature Description          |
 |----|-------------------------------|
-| 1  | **Movie Recommendations**     | - Future Feature
+| 1  | **Movie Recommendations**     | 
 |    | *Purpose*: Suggest films based on user preferences |
-|    | *Interaction*: Click "Surprise Me" button | 
+|    | *Interaction*: Click "Surprise Me" button (Future Feature)| 
 |    | *Value*: Personalized entertainment |
-| 2  | **Advanced Search**           | - Future Feature
+| 2  | **Advanced Search**           |
 |    | *Purpose*: Find specific movies |
-|    | *Interaction*: Filter by genre, year, rating |
+|    | *Interaction*: Filter by genre, year, rating (Future Feature) |
 |    | *Value*: Precise movie discovery |
 | 3  | **Movie Details**             |
 |    | *Purpose*: View comprehensive information |
@@ -65,7 +65,7 @@ This app stands out by combining personal preference tracking with comprehensive
 |    | *Purpose*: Save movies for later |
 |    | *Interaction*: Click heart icon to add/remove |
 |    | *Value*: Track interesting finds |
-| 5  | **Ratings System**            | - Future Feature
+| 5  | **Ratings System** (Future Feature)           |
 |    | *Purpose*: Share opinions with community |
 |    | *Interaction*: Rate movies with 1-5 stars |
 |    | *Value*: Better future recommendations |
@@ -88,7 +88,7 @@ This app stands out by combining personal preference tracking with comprehensive
 | JavaScript    | Interactive elements             | ES6      |
 | Font Awesome  | Movie-related icons              | 6.4      |
 | TMDB API      | Movie database integration       | 3.0      |
-| **Deployment**: GitHub Pages                   |
+| **Deployment**:| GitHub Pages                   |
 
 ---
 
