@@ -69,7 +69,7 @@ This app stands out by combining personal preference tracking with comprehensive
 |    | *Purpose*: Share opinions with community |
 |    | *Interaction*: Rate movies with 1-5 stars |
 |    | *Value*: Better future recommendations |
-|* This is a hypothetical feature and not yet implemented.|
+|* |This is a hypothetical feature and not yet implemented.|
 
 ---
 
